@@ -3,7 +3,7 @@
   "description": "CLI to scaffold Express + TypeScript projects",
   "author": "Anees Akbar",
   "license": "ISC",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "index.js",
   "files": [
