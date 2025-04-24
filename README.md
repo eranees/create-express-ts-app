@@ -21,27 +21,27 @@ This project provides a simple way to create an Express application using TypeSc
 ## 1. To get started, clone the repository or download the files:
 
 ```bash
-git clone https://github.com/eranees/create-express-ts-app.git
-cd create-express-ts-app
+git clone https://github.com/eranees/ts-express-gen.git
+cd ts-express-gen
 ```
 
 ## Then, run the scaffolder:
 
 ```bash
-npx create-express-ts-app
+npx ts-express-gen
 ```
 
 ## 2. ### ✅ Option 1: Use via `npx` (No install needed)
 
 ```bash
-npx create-express-ts-app
+npx ts-express-gen
 ```
 
 ## 3: Install globally
 
 ```bash
-npm install -g create-express-ts-app
-create-express-ts-app
+npm install -g ts-express-gen
+ts-express-gen
 ```
 
 ## This command will prompt you with a few questions about your project:
