@@ -1,23 +1,32 @@
 {
-  "name": "express-ts-scaffolder",
+  "name": "create-express-ts-app",
+  "description": "CLI to scaffold Express + TypeScript projects",
+  "author": "Anees Akbar",
+  "license": "ISC",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "createApp.js"
+  ],
   "bin": {
     "create-express-ts-app": "index.js"
   },
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "chalk": "^5.4.1",
     "commander": "^13.1.0",
     "execa": "^9.5.2",
     "fs-extra": "^11.3.0",
     "inquirer": "^12.5.2"
-  }
+  },
+  "keywords": [
+    "cli",
+    "express",
+    "typescript",
+    "scaffold"
+  ]
 }
